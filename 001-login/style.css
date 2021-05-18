@@ -24,6 +24,8 @@ form {
     text-align: center;
     line-height: 1.5;
     padding: 30px;
+    margin-top: 50px;
+    margin-right: 40px;
 }
 
 footer {
@@ -38,7 +40,6 @@ footer {
 .container-a {
     display: flex;
     justify-content: space-between;
-
 }
 
 .h1 {
