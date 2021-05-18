@@ -9,6 +9,16 @@ body {
     background-color: rgb(221, 214, 214);
 }
 
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+}
+
 header {
     height: 105px;
     display: flex;
@@ -21,11 +31,11 @@ form {
     width: 600px;
     height: 470px;
     background-color: rgba(245, 241, 241, 0.925);
-    text-align: center;
-    line-height: 1.5;
     padding: 30px;
     margin-top: 50px;
     margin-right: 40px;
+    padding: 50px;
+    border-radius: 5px;
 }
 
 footer {
@@ -57,6 +67,11 @@ footer {
 
 .p2 {
     text-decoration: none;
+    text-align: center;
+}
+
+.texto {
+    text-align: center;
 }
 
 .botao {
@@ -66,14 +81,21 @@ footer {
     width: 60px;
     height: 40px;
     font-size: 18px;
-}
-
-.campo {
-    width: 400px;
-    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .img1 {
     padding: 40px;
     padding-top: 50px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.campo1 {
+    margin-bottom: 20px;
+    color: red;
 }
